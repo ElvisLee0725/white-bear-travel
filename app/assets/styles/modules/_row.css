@@ -34,7 +34,7 @@
 		margin-bottom: 1rem;
 	}
 
-	/*@mixin atMedium {
+	@mixin atMedium {
 		&__b-margin-until-medium {
 			margin-bottom: 1rem;
 		}
@@ -62,12 +62,12 @@
 		&__medium-8--smaller {
 			width: 63%;
 		}
-	}*/
+	}
 
 	@mixin atLarge {
-	/*	&__b-margin-until-large {
+		&__b-margin-until-large {
 			margin-bottom: 1rem;
-		}*/
+		}
 
 		&__large-4 {
 			float: left;
