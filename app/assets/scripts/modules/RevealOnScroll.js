@@ -23,7 +23,7 @@ class RevealOnScroll {
 				handler: function() {	// What to do when seeing the item
 					$(currentItem).addClass("reveal-item--is-visible");
 				},
-				offset: percent	// Trigger handler when the element is loaded X percent
+				offset: percent	// Trigger handler when the element is loaded X percent from top of the page
 			});
 		});
 	}
